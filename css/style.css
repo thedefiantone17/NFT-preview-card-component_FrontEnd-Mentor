@@ -1,0 +1,219 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.box{
+    width: 325px;
+    height: 530px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 50px auto 30px auto;
+    justify-content: center;
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.43);
+}
+
+.inside-img{
+    margin: 22px 22px 0 22px;
+    width: 280px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.43);
+}
+
+.inside-img:hover{
+    transform:scale(1.05);
+    transition: .5s ease;
+}
+
+/* .above-image{
+    opacity: 0;
+} */
+
+.text-box{
+    height: auto;
+}
+
+.text-box h1{
+    margin: 20px auto 20px 22px;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.text-box p{
+    width: 300px;
+    padding: 0 0 0 20px;
+    margin: 0 0 0 1px;
+    color: hsl(215, 51%, 70%);
+}
+
+.left{
+    width: 100px;
+    height: auto;
+    padding: 0px 0 0px 20px;
+    color: hsl(178, 100%, 50%);
+    transform: translate(1px, 10px);
+}
+
+.right{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    padding: 0px 20px 0px 0;
+    transform: translate(210px, -12px);
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    margin: 0 65px 0 auto;
+    width:200px;
+    justify-content: center;
+    border: 0.025em solid hsl(215, 32%, 27%);
+    transform: translate(0px, 12px);
+}
+
+.creator img{
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 33px;
+    height: auto;
+    margin: 20px 0 0 20px;
+}
+
+.creator-details{
+    width: 200px;
+    transform: translate(65px, -43px);
+    color: hsl(215, 51%, 70%);
+}
+
+.creator-details bold{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+/* on hover */
+
+.text-box h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.creator-details bold:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+/* .image .above-image:hover{
+    opacity: 0.7;
+    transition: .5s ease;
+    position: absolute;
+    background-color: cyan;
+} */
+
+/* hover properties end */
+
+/* Screen size: 375px */
+@media only screen and (max-width: 375px){
+    .box{
+        width: 325px;
+        height: 530px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 10px;
+        margin: 50px auto 30px auto;
+        justify-content: center;
+        box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.43);
+    }
+    
+    .inside-img{
+        margin: 22px 22px 0 22px;
+        width: 280px;
+        border-radius: 10px;
+        height: auto;
+        box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.43);
+    }
+    
+    .text-box{
+        height: auto;
+    }
+
+    .text-box h1{
+        margin: 20px auto 20px 22px;
+        font-size: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .text-box p{
+        width: 300px;
+        padding: 0 0 0 20px;
+        margin: 0 0 0 1px;
+        color: hsl(215, 51%, 70%);
+    }
+  
+    .left{
+        width: 100px;
+        height: auto;
+        padding: 0px 0 0px 20px;
+        color: hsl(178, 100%, 50%);
+        transform: translate(1px, 10px);
+    }
+
+    .right{
+        display: inline-block;
+        width: 100px;
+        height: auto;
+        padding: 0px 20px 0px 0;
+        transform: translate(210px, -12px);
+        color: hsl(215, 51%, 70%);
+    }
+
+    hr{
+        margin: 0 65px 0 auto;
+        width:200px;
+        justify-content: center;
+        border: 0.025em solid hsl(215, 32%, 27%);
+    }
+
+    .creator img{
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 33px;
+        height: auto;
+        margin: 20px 0 0 20px;
+    }
+
+    .creator-details{
+        width: 200px;
+        transform: translate(65px, -43px);
+        color: hsl(215, 51%, 70%);
+    }
+
+    .creator-details bold{
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+    }
+
+    .text-box h1:hover{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+    .creator-details bold:hover{
+        cursor: pointer;
+        color: hsl(178, 100%, 50%);
+    }
+    .inside-img:hover{
+        transform:scale(1.05);
+        transition: .5s ease;
+    }
+
+}
+
+/* attribution */
+
+.attribution { 
+    /* margin-top: 10%; */
+    font-size: 11px;
+    text-align: center;  
+    transform: translate(0px, 5px);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
