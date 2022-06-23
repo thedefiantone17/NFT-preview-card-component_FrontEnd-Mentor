@@ -112,7 +112,7 @@ hr{
 /* hover properties end */
 
 /* Screen size: 375px */
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
     .box{
         width: 325px;
         height: 530px;
